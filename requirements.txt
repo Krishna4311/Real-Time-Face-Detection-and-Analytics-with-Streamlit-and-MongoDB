@@ -1,0 +1,8 @@
+opencv-python
+numpy
+pandas
+streamlit
+pymongo
+matplotlib
+python-dotenv
+streamlit-autorefresh
