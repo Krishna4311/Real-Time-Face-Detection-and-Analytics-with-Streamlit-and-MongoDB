@@ -4,7 +4,7 @@ This project is a real-time face detection and analytics system using OpenCV and
 
 ---
 
-## 📌 Features
+## Features
 
 - Real-time face detection using OpenCV's DNN module
 - Frame deduplication and intelligent logging logic
@@ -17,7 +17,7 @@ This project is a real-time face detection and analytics system using OpenCV and
 
 ---
 
-## 🧠 Model Used
+## Model Used
 
 The face detector is based on OpenCV’s SSD with ResNet-10 backbone trained on the WIDER FACE dataset.
 
@@ -28,13 +28,13 @@ The face detector is based on OpenCV’s SSD with ResNet-10 backbone trained on 
   [Download from OpenCV GitHub](https://github.com/opencv/opencv/blob/master/samples/dnn/face_detector/res10_300x300_ssd_iter_140000_fp16.caffemodel)
 
 ---
-# 👁️ Real-Time Face Detection and Logging System
+# Real-Time Face Detection and Logging System
 
 A real-time face detection system using OpenCV’s deep learning-based face detector. It logs face counts to MongoDB and visualizes them through a Streamlit dashboard.
 
 ---
 
-## ⚙️ Setup Guide
+##  Setup Guide
 
 Follow these steps to install, configure, and run the application.
 
@@ -111,7 +111,7 @@ You can modify the cooldown time and confidence threshold in `detect.py` to fit 
 
 ---
 
-### 📂 Project Structure
+### Project Structure
 
 ```
 .
@@ -126,7 +126,7 @@ You can modify the cooldown time and confidence threshold in `detect.py` to fit 
 
 ---
 
-### 📄 License for Model
+### License for Model
 
 The model used (`res10_300x300_ssd_iter_140000_fp16.caffemodel`) is distributed with OpenCV under the Apache License 2.0.
 
