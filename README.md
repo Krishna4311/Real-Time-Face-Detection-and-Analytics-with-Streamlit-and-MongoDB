@@ -96,7 +96,7 @@ This opens your webcam, detects faces, and logs detection data (count + timestam
 Launch the analytics dashboard in your browser:
 
 ```bash
-streamlit run app.py
+streamlit run dashboard.py
 ```
 
 Features:
